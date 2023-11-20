@@ -1,0 +1,65 @@
+body{
+    display: flex;
+    justify-content: center;
+    padding:0;
+    margin:0;
+}
+
+button{
+
+    width: 38%;
+    border-color: transparent;
+    border-radius: 6px;
+    height: 2rem;
+    color:white;
+    background-color: silver;
+    margin-top: 0.4rem;
+   
+}
+
+.progress-line-container{
+    width: 99%;
+    display: flex;
+    margin-top: 6rem;
+    border: black solid;
+}
+
+.number-circle{
+
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50% ;
+    background-color: white;
+    border-color: silver;
+    border-style:double;
+    color: silver;
+    justify-content: center;
+
+}
+
+.number-line{
+    width: 5rem;
+    height: 0.2rem;
+    background-color:silver ;
+    color: white;
+    margin-top: 1rem;
+
+
+}
+
+
+.main-container{
+    width: 25rem;
+    border: blue solid;
+}
+.button-container{
+    display: flex;
+    width:60%;
+    height: 20%;
+    margin: 1rem;
+    border: red solid;
+    justify-content: space-evenly;
+
+    
+}
+
